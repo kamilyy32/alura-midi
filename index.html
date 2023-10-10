@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Alura MIDI</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600&display=swap" rel="stylesheet">
+
+    <link rel="icon" type="image/png" href="images/bateria.png">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/estilos.css">
+
+</head>
+<body>
+
+    <h1>Alura Midi</h1>
+
+    <section class="teclado">
+        <button onclick="alert('Pom')" class="tecla tecla_pom">Grito</button>
+        <button onclick="alert('Clap')" class="tecla tecla_clap">Gotas</button>
+        <button class="tecla tecla_tim">Vai</button>
+
+        <button class="tecla tecla_puff">Curintia</button>
+        <button class="tecla tecla_splash">Aralho</button>
+        <button class="tecla tecla_toim">5 reais</button>
+
+        <button class="tecla tecla_psh">Kiko</button>
+        <button class="tecla tecla_tic">Fala</button>
+        <button class="tecla tecla_tom">Chicote</button>
+    </section>
+
+    <audio src="sounds/grito.mp3" id="som_tecla_pom"></audio>
+    <audio src="sounds/gotas.mp3" id="som_tecla_clap"></audio>
+    <audio src="sounds/Vai.mp3" id="som_tecla_tim"></audio>
+    <audio src="sounds/curintia.mp3" id="som_tecla_puff"></audio>
+    <audio src="sounds/Aralho.mp3" id="som_tecla_splash"></audio>
+    <audio src="sounds/5 reais.mp3" id="som_tecla_toim"></audio>
+    <audio src="sounds/kiko.mp3" id="som_tecla_psh"></audio>
+    <audio src="sounds/fala comigo.mp3" id="som_tecla_tic"></audio>
+    <audio src="sounds/chicote.mp3" id="som_tecla_tom"></audio>
+
+    <script src="main.js"></script>
+
+</body>
+</html>
